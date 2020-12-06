@@ -32,6 +32,7 @@ public class MenuActivity extends AppCompatActivity {
     CardView cardViewMenuMakanan, cardViewLogout, cardViewCheckout,
             cardViewProfile, cardViewReservation, cardViewReservationList;
     Session session;
+    Button location;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +86,15 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MenuActivity.this, ReservationListActivity.class));
+                finish();
+            }
+        });
+
+        location = findViewById(R.id.btnLocation);
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuActivity.this, Geolocation.class));
                 finish();
             }
         });
