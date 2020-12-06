@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
 
         session = new Session(this);
 
+        if(!session.getEmail().equals("")){
+            startActivity(new Intent(MainActivity.this, MenuActivity.class));
+            finish();
+        }
+
         txtemail = findViewById(R.id.txtemail);
         txtpassword = findViewById(R.id.txtpassword);
         buttonLogin = findViewById(R.id.buttonLogin);
