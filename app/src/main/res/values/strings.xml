@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Resto</string>
+
+    <!-- Register-->
+    <string name="welcome">Welcome</string>
+    <string name="come">Phuff waiting for you</string>
+    <string name="fullname">Fullname</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone No</string>
+    <string name="password">Password</string>
+    <string name="congirm">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="have_account">Already have an account? Login</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_username">Enter username</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="error_message_phone">Enter Phone number</string>
+    <string name="error_confirm_password">Password Does Not Matches</string>
+
+    <!--Login-->
+    <string name="hai">Holla</string>
+    <string name="phuff">Phuff cant wait to meet you</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User? Lets Sign Up</string>
+
+    <!--Home-->
+    <string name="logout">Logout</string>
+    <string name="location">Location</string>
+    <string name="menu">Menu List</string>
+    <string name="reservasi">Reservation</string>
+    <string name="profile">Profile</string>
+    <string name="payment">Payment</string>
+
+    <!--Reservasi-->
+    <string name="name">Name</string>
+    <string name="jumlah">Person</string>
+    <string name="day">Day</string>
+    <string name="date">Date</string>
+
+    <!--Payment-->
+    <string name="prder">Order List</string>
+    <string name="jumlah2">Jumlah</string>
+    <string name="harga">Harga</string>
+    <string name="total">Total Harga</string>
+    <string name="add">Pay</string>
+
+    <!--Menu-->
+    <string name="check">Check Out</string>
+
+    <!--Location-->
+    <string name="go">Go</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

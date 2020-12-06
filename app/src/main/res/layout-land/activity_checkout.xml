@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuMakananActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/totalHarga" />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/totalHarga"
+        style="@style/Widget.MaterialComponents.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonBayar"
+        android:text="Total Harga : 0"
+        android:textSize="24dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonBayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#82ccdd"
+        android:textColor="#000"
+        android:layout_above="@id/buttonBack"
+        android:text="Bayar">
+
+    </com.google.android.material.button.MaterialButton>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#82ccdd"
+        android:textColor="#000"
+        android:text="Back">
+
+    </com.google.android.material.button.MaterialButton>
+</RelativeLayout>
+
